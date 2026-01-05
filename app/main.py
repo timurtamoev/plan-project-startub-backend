@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from routers import auth, features, how_it_works, pricing
+from app.routers import auth, features, how_it_works, pricing
 
 app = FastAPI()
 
